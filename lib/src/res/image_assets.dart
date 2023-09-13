@@ -3,6 +3,7 @@ class ImageAssets {
 
   static const logo1 = "$base/logo1.png";
   static const logo2 = "$base/logo2.png";
+  static const logo3 = "$base/logo3.png";
 
   static const chef = "$base/chef.png";
   static const homemaker = "$base/homemaker.png";
@@ -25,6 +26,7 @@ class ImageAssets {
   static const twitter = "$base/twitter.png";
   static const fb = "$base/facebook.png";
   static const insta = "$base/instagram.png";
+  static const yt = "$base/youtube.png";
   static const play = "$base/play.png";
   static const app = "$base/app.png";
 
@@ -51,4 +53,33 @@ class ImageAssets {
 
   static const mobdownload = "$base/mobdownload.png";
   static const templastbox = "$base/templastbox.png";
+
+  static const tiffinservicebanner = "$base/tiffinservicebanner.png";
+
+  static const tiffinserviceanimation = "$base/animation_lm6ewjwf.json";
+
+  static const tiffinserviceoption = "$base/tiffinserviceoption.png";
+
+  static const tiffinmenu = "$base/menu.png";
+  static const telephone = "$base/telephone.png";
+  static const whatsapp = "$base/whatsapp.png";
+  static const whatwedo = "$base/whatwedo.png";
+  static const personalchef = "$base/personalchef.png";
+
+  static const chefservicebanner = "$base/chefservice.png";
+
+  static const chefcateringservice = "$base/chefcateringservice.png";
+  static const chefpersonalchef = "$base/chefpersonalchef.png";
+  static const chefrestaurantchef = "$base/chefrestaurantchef.png";
+
+  static const cateringservicedesign = "$base/cateringservicedesign.png";
+  static const cateringserviceavailablefor =
+      "$base/cateringserviceavailablefor.png";
+
+  static const widerange = "$base/widerange.png";
+  static const highquality = "$base/highquality.png";
+  static const amazingpersonnel = "$base/amazingpersonnel.png";
+
+  static const personalchefservice = "$base/personalchefservice.png";
+  static const whychooseus = "$base/whychooseus.png";
 }

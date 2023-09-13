@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:prepeat_website/src/features/web/web_landing_page/views/widget/TopAppBar%20/appbar.dart';
+import 'package:prepeat_website/src/constant/TopAppBar%20/appbar.dart';
 import 'package:prepeat_website/src/features/web/web_landing_page/views/widget/Banner/banner.dart';
 import 'package:prepeat_website/src/features/web/web_landing_page/views/widget/Download_Box/download.dart';
-import 'package:prepeat_website/src/features/web/web_landing_page/views/widget/Bottom_Box/last_box.dart';
+import 'package:prepeat_website/src/constant/Bottom_Box/last_box.dart';
 import 'package:prepeat_website/src/features/web/web_landing_page/views/widget/Locateme_Box/location.dart';
 import 'package:prepeat_website/src/features/web/web_landing_page/views/widget/Product_Feature_Box/product_feature.dart';
 import 'package:prepeat_website/src/features/web/web_landing_page/views/widget/Service_Box/features_box.dart';
