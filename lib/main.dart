@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:prepeat_website/src/constant/mob_gorouter/mob_app_route_config.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'src/constant/web_gorouter/web_app_route_config.dart';
+import 'src/constant/desktop_gorouter/desktop_app_route_config.dart';
 
 void main() {
   runApp(const MyApp());
@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
             designSize: const Size(1512, 1024),
             builder: (context, child) {
               return MaterialApp.router(
-                routerConfig: webrouter,
+                routerConfig: desktoprouter,
                 debugShowCheckedModeBanner: false,
                 theme: ThemeData(
                   colorScheme:

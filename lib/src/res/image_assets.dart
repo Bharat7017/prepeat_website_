@@ -1,40 +1,28 @@
 class ImageAssets {
   static const base = "assets/images";
 
-  static const logo1 = "$base/logo1.png";
-  static const logo2 = "$base/logo2.png";
-  static const logo3 = "$base/logo3.png";
+//Desktop Images
+  static const desktopcm = "$base/desktopcm.png";
 
-  static const webchef = "$base/chef.png";
-  static const webhomemaker = "$base/homemaker.png";
-  static const weblaundry = "$base/laundry.png";
-  static const webtiffin = "$base/tiffin.png";
+  static const desktopchef = "$base/chef.png";
+  static const desktophomemaker = "$base/homemaker.png";
+  static const desktoplaundry = "$base/laundry.png";
+  static const desktoptiffin = "$base/tiffin.png";
 
-  static const recycle = "$base/recycle.png";
-  static const peace = "$base/peace.png";
-  static const quality = "$base/quality.png";
-  static const booking = "$base/booking.png";
+  static const desktoptiffinfeature = "$base/tiffinfeature.png";
+  static const desktoplaundryfeature = "$base/laundryfeature.png";
+  static const desktopcheffeature = "$base/cheffeature.png";
+  static const desktophomemakerfeature = "$base/homemakerfeature.png";
 
-  static const tiffinfeature = "$base/tiffinfeature.png";
-  static const laundryfeature = "$base/laundryfeature.png";
-  static const cheffeature = "$base/cheffeature.png";
-  static const homemakerfeature = "$base/homemakerfeature.png";
+  static const desktoplocateme = "$base/locateme.png";
 
-  static const locateme = "$base/locateme.png";
   static const download = "$base/download.png";
 
-  static const twitter = "$base/twitter.png";
-  static const fb = "$base/facebook.png";
-  static const insta = "$base/instagram.png";
-  static const yt = "$base/youtube.png";
-  static const play = "$base/play.png";
-  static const app = "$base/app.png";
+  static const desktoptiffinservicebanner =
+      "$base/desktoptiffinservicebanner.png";
 
-  static const profile1 = "$base/profile1.png";
-  static const profile2 = "$base/profile2.png";
-  static const profile3 = "$base/profile3.png";
-  static const profile4 = "$base/profile4.png";
-  static const testimonialdesign = "$base/testimonialdesign.png";
+//Mobile Images
+  static const mobcm = "$base/mobcm.png";
 
   static const mobbanner1 = "$base/mobbanner1.png";
   static const mobbanner2 = "$base/mobbanner2.png";
@@ -52,9 +40,34 @@ class ImageAssets {
   static const mobhomemakerbg = "$base/mobhomemakerbg.png";
 
   static const mobdownload = "$base/mobdownload.png";
-  static const templastbox = "$base/templastbox.png";
 
-  static const tiffinservicebanner = "$base/tiffinservicebanner.png";
+  static const templastbox = "$base/templastbox.png"; //change
+
+  static const mobtiffinservicebanner = "$base/mobtiffinservicebanner.png";
+
+//common Images
+  static const logo1 = "$base/logo1.png";
+  static const logo2 = "$base/logo2.png";
+  static const logo3 = "$base/logo3.png";
+
+  static const recycle = "$base/recycle.png";
+  static const peace = "$base/peace.png";
+  static const quality = "$base/quality.png";
+  static const booking = "$base/booking.png";
+
+  static const profile1 = "$base/profile1.png";
+  static const profile2 = "$base/profile2.png";
+  static const profile3 = "$base/profile3.png";
+  static const profile4 = "$base/profile4.png";
+
+  static const testimonialdesign = "$base/testimonialdesign.png";
+
+  static const twitter = "$base/twitter.png";
+  static const fb = "$base/facebook.png";
+  static const insta = "$base/instagram.png";
+  static const yt = "$base/youtube.png";
+  static const play = "$base/play.png";
+  static const app = "$base/app.png";
 
   static const tiffinserviceanimation = "$base/animation_lm6ewjwf.json";
 
@@ -63,6 +76,7 @@ class ImageAssets {
   static const tiffinmenu = "$base/menu.png";
   static const telephone = "$base/telephone.png";
   static const whatsapp = "$base/whatsapp.png";
+
   static const whatwedo = "$base/whatwedo.png";
   static const personalchef = "$base/personalchef.png";
 
