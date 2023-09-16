@@ -5,10 +5,10 @@ class ImageAssets {
   static const logo2 = "$base/logo2.png";
   static const logo3 = "$base/logo3.png";
 
-  static const chef = "$base/chef.png";
-  static const homemaker = "$base/homemaker.png";
-  static const laundry = "$base/laundry.png";
-  static const tiffin = "$base/tiffin.png";
+  static const webchef = "$base/chef.png";
+  static const webhomemaker = "$base/homemaker.png";
+  static const weblaundry = "$base/laundry.png";
+  static const webtiffin = "$base/tiffin.png";
 
   static const recycle = "$base/recycle.png";
   static const peace = "$base/peace.png";

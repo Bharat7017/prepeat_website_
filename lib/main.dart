@@ -1,9 +1,8 @@
 // ignore_for_file: depend_on_referenced_packages
 import 'package:flutter/material.dart';
-import 'package:prepeat_website/src/features/mobile/mob_landing_page/views/mob_landing_page.dart';
+import 'package:prepeat_website/src/constant/mob_gorouter/mob_app_route_config.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
 import 'src/constant/web_gorouter/web_app_route_config.dart';
 
 void main() {
@@ -21,7 +20,8 @@ class MyApp extends StatelessWidget {
           return ScreenUtilInit(
             designSize: const Size(1450, 1100),
             builder: (context, child) {
-              return MaterialApp(
+              return MaterialApp.router(
+                routerConfig: mobrouter,
                 debugShowCheckedModeBanner: false,
                 title: 'Prepeat.in',
                 theme: ThemeData(
@@ -29,7 +29,6 @@ class MyApp extends StatelessWidget {
                       ColorScheme.fromSeed(seedColor: Colors.deepPurple),
                   useMaterial3: true,
                 ),
-                home: const MobLandingPage(),
               );
             },
           );
@@ -38,7 +37,7 @@ class MyApp extends StatelessWidget {
             designSize: const Size(1512, 1024),
             builder: (context, child) {
               return MaterialApp.router(
-                routerConfig: router,
+                routerConfig: webrouter,
                 debugShowCheckedModeBanner: false,
                 theme: ThemeData(
                   colorScheme:

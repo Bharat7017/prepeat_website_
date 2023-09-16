@@ -6,8 +6,8 @@ import 'package:prepeat_website/src/constant/Bottom_Box/lst_column.dart';
 import 'package:prepeat_website/src/res/color_pallete.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class LastBox extends StatelessWidget {
-  const LastBox({super.key});
+class WebLastBox extends StatelessWidget {
+  const WebLastBox({super.key});
 
   @override
   Widget build(BuildContext context) {

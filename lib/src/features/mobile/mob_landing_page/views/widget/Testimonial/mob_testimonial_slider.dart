@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:prepeat_website/src/features/mobile/mob_landing_page/views/widget/Testimonial/mob_testimonial_data.dart';
-import 'package:prepeat_website/src/features/web/web_landing_page/views/widget/Testimonial_Box/testimonialdata.dart';
+import 'package:prepeat_website/src/features/desktop/web_landing_page/views/widget/Testimonial_Box/testimonialdata.dart';
 import 'package:prepeat_website/src/res/image_assets.dart';
 
 class MobTestimonialcarouselslider extends StatelessWidget {

@@ -10,7 +10,7 @@ class IVthBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 130.h,
+      height: 120.h,
       decoration: const BoxDecoration(
           color: ColorPallete.black,
           borderRadius: BorderRadius.only(
@@ -20,11 +20,11 @@ class IVthBox extends StatelessWidget {
         children: [
           Image.asset(
             ImageAssets.logo3,
-            height: 30,
+            height: 40,
           ),
-          const Text(
+          Text(
             'Copyright © 2020 Healthykitchen. All rights reserved.',
-            style: TextStyle(color: ColorPallete.white),
+            style: TextStyle(color: ColorPallete.white, fontSize: 17.sp),
           ),
           SizedBox(
             width: 205.w,

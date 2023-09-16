@@ -1,9 +1,9 @@
 import 'package:go_router/go_router.dart';
-import 'package:prepeat_website/src/features/web/web_chef_service/views/web_chef_service.dart';
-import 'package:prepeat_website/src/features/web/web_landing_page/views/web_landing_page.dart';
-import 'package:prepeat_website/src/features/web/web_tiffin_service/views/web_tiffin_service.dart';
+import 'package:prepeat_website/src/features/desktop/web_chef_service/views/web_chef_service.dart';
+import 'package:prepeat_website/src/features/desktop/web_landing_page/views/web_landing_page.dart';
+import 'package:prepeat_website/src/features/desktop/web_tiffin_service/views/web_tiffin_service.dart';
 
-GoRouter router = GoRouter(initialLocation: '/', routes: [
+GoRouter webrouter = GoRouter(initialLocation: '/', routes: [
   GoRoute(
     name: 'web_landing_page',
     path: '/',

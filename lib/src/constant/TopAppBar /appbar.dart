@@ -7,9 +7,9 @@ import 'package:prepeat_website/src/res/color_pallete.dart';
 import 'package:prepeat_website/src/res/image_assets.dart';
 import 'package:go_router/go_router.dart';
 
-class TopAppBar extends StatelessWidget {
+class WebTopAppBar extends StatelessWidget {
   int index;
-  TopAppBar({
+  WebTopAppBar({
     Key? key,
     required this.index,
   }) : super(key: key);
