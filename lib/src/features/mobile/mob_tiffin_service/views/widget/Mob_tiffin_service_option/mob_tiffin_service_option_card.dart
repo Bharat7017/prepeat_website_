@@ -3,8 +3,8 @@ import 'package:prepeat_website/src/res/color_pallete.dart';
 import 'package:prepeat_website/src/res/image_assets.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class DesktopTiffinServiceOptioncard extends StatelessWidget {
-  const DesktopTiffinServiceOptioncard(
+class MobTiffinServiceOptionCard extends StatelessWidget {
+  const MobTiffinServiceOptionCard(
       {super.key,
       required this.optionname,
       required this.timedetails,
@@ -12,54 +12,37 @@ class DesktopTiffinServiceOptioncard extends StatelessWidget {
       required this.price,
       required this.mrp,
       required this.pay});
-
   final String optionname, timedetails, days, price, mrp;
   final VoidCallback pay;
-
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 320.w,
-      decoration: BoxDecoration(boxShadow: const [
-        BoxShadow(
-            color: ColorPallete.grey,
-            spreadRadius: 1,
-            blurRadius: 15,
-            blurStyle: BlurStyle.outer)
-      ], borderRadius: BorderRadius.circular(10), color: ColorPallete.white),
+      margin: const EdgeInsets.all(20),
+      width: double.infinity,
+      decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(10), color: ColorPallete.white),
       child: Padding(
-        padding: const EdgeInsets.all(20.0),
+        padding: const EdgeInsets.all(15.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Image.asset(ImageAssets.tiffinserviceoption),
-            SizedBox(
-              height: 10.h,
-            ),
             Center(
               child: Text(
                 optionname,
                 style: TextStyle(
-                    fontSize: 25.sp,
+                    fontSize: 95.sp,
                     color: ColorPallete.orange,
-                    fontFamily: 'Poppins'),
+                    fontWeight: FontWeight.w600),
               ),
             ),
+            Center(child: Text(timedetails)),
             SizedBox(
-              height: 05.h,
-            ),
-            Center(
-              child: Text(
-                timedetails,
-                style: TextStyle(fontFamily: 'Poppins', fontSize: 13.sp),
-              ),
-            ),
-            SizedBox(
-              height: 20.h,
+              height: 30.h,
             ),
             Text(
               days,
-              style: const TextStyle(fontFamily: 'Poppins'),
+              style: const TextStyle(fontFamily: "Poppins"),
             ),
             Row(
               crossAxisAlignment: CrossAxisAlignment.end,
@@ -72,12 +55,12 @@ class DesktopTiffinServiceOptioncard extends StatelessWidget {
                         Text(
                           '₹',
                           style: TextStyle(
-                              color: ColorPallete.orange, fontSize: 17.sp),
+                              color: ColorPallete.orange, fontSize: 60.sp),
                         ),
                         Text(
                           price,
                           style: TextStyle(
-                              fontSize: 25.sp,
+                              fontSize: 100.sp,
                               color: ColorPallete.orange,
                               fontWeight: FontWeight.w900),
                         ),
@@ -87,9 +70,9 @@ class DesktopTiffinServiceOptioncard extends StatelessWidget {
                 ),
                 Text(
                   mrp,
-                  style: const TextStyle(
+                  style: TextStyle(
                       decoration: TextDecoration.lineThrough,
-                      fontSize: 15,
+                      fontSize: 55.sp,
                       fontFamily: 'Poppins'),
                 ),
                 SizedBox(
@@ -97,7 +80,7 @@ class DesktopTiffinServiceOptioncard extends StatelessWidget {
                 ),
                 SizedBox(
                   height: 40.h,
-                  width: 80.w,
+                  width: 280.w,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
                         shape: ContinuousRectangleBorder(
@@ -108,7 +91,7 @@ class DesktopTiffinServiceOptioncard extends StatelessWidget {
                       'PAY',
                       style: TextStyle(
                           fontWeight: FontWeight.w500,
-                          fontSize: 14.sp,
+                          fontSize: 54.sp,
                           color: ColorPallete.white),
                     ),
                   ),

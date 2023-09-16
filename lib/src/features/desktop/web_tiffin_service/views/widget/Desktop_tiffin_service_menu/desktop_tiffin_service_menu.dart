@@ -56,16 +56,22 @@ class DesktopTiffinMenu extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ContactButton(
+              fontsize: 16.sp,
               name: 'Contact Us',
               logo: ImageAssets.telephone,
               contactbutton: () {},
               contactbuttoncolor: ColorPallete.orange,
+              btnheight: 70.h,
+              btnwidth: 190.w,
             ),
             SizedBox(
               width: 70.w,
             ),
             ContactButton(
+              fontsize: 16.sp,
               name: 'WhatsApp',
+              btnheight: 70.h,
+              btnwidth: 190.w,
               logo: ImageAssets.whatsapp,
               contactbutton: () {},
               contactbuttoncolor: ColorPallete.parrotgreen,

@@ -8,16 +8,20 @@ class ContactButton extends StatelessWidget {
       required this.name,
       required this.logo,
       required this.contactbutton,
-      required this.contactbuttoncolor});
+      required this.contactbuttoncolor,
+      required this.btnheight,
+      required this.btnwidth,
+      required this.fontsize});
   final String name, logo;
   final VoidCallback contactbutton;
   final Color contactbuttoncolor;
+  final double btnheight, btnwidth, fontsize;
 
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 70.h,
-      width: 190.w,
+      height: btnheight,
+      width: btnwidth,
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(backgroundColor: contactbuttoncolor),
         onPressed: contactbutton,
@@ -36,7 +40,7 @@ class ContactButton extends StatelessWidget {
               style: TextStyle(
                   color: ColorPallete.white,
                   fontFamily: 'Poppins',
-                  fontSize: 16.sp),
+                  fontSize: fontsize),
             ),
           ],
         ),

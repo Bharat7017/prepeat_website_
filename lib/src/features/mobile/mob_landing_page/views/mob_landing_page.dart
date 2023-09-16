@@ -1,5 +1,3 @@
-// ignore_for_file: depend_on_referenced_packages
-
 import 'package:flutter/material.dart';
 import 'package:prepeat_website/src/constant/Mob_AppBar/mob_appbar.dart';
 import 'package:prepeat_website/src/features/mobile/mob_landing_page/views/widget/Mob_landing_page_Banner/mob_landing_page_banner.dart';

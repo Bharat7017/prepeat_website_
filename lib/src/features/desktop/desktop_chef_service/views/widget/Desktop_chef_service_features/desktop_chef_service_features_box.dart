@@ -36,11 +36,17 @@ class DesktopFeaturesBox extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 ContactButton(
+                    fontsize: 16.sp,
+                    btnheight: 70.h,
+                    btnwidth: 190.w,
                     name: 'Book now',
                     logo: ImageAssets.telephone,
                     contactbutton: () {},
                     contactbuttoncolor: ColorPallete.orange2),
                 ContactButton(
+                    fontsize: 16.sp,
+                    btnheight: 70.h,
+                    btnwidth: 190.w,
                     name: 'Book now',
                     logo: ImageAssets.whatsapp,
                     contactbutton: () {},

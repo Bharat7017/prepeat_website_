@@ -21,6 +21,8 @@ class ImageAssets {
   static const desktoptiffinservicebanner =
       "$base/desktoptiffinservicebanner.png";
 
+  static const personalchef = "$base/personalchef.png";
+
 //Mobile Images
   static const mobcm = "$base/mobcm.png";
 
@@ -44,6 +46,8 @@ class ImageAssets {
   static const templastbox = "$base/templastbox.png"; //change
 
   static const mobtiffinservicebanner = "$base/mobtiffinservicebanner.png";
+
+  static const mobpersonalchef = "$base/mobpersonalchef";
 
 //common Images
   static const logo1 = "$base/logo1.png";
@@ -78,7 +82,6 @@ class ImageAssets {
   static const whatsapp = "$base/whatsapp.png";
 
   static const whatwedo = "$base/whatwedo.png";
-  static const personalchef = "$base/personalchef.png";
 
   static const chefservicebanner = "$base/chefservice.png";
 
@@ -96,4 +99,6 @@ class ImageAssets {
 
   static const personalchefservice = "$base/personalchefservice.png";
   static const whychooseus = "$base/whychooseus.png";
+
+  static const downloadarrow = "$base/downloadarrow.png";
 }

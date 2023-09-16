@@ -18,7 +18,7 @@ class DesktopTiffinServiceOptions extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            WebTiffinServiceOptioncard(
+            DesktopTiffinServiceOptioncard(
               optionname: '15 Days Trail',
               timedetails: 'Breakfast / Lunch / Dinner',
               days: '15 Days Trial',
@@ -26,7 +26,7 @@ class DesktopTiffinServiceOptions extends StatelessWidget {
               mrp: '₹2040',
               pay: () {},
             ),
-            WebTiffinServiceOptioncard(
+            DesktopTiffinServiceOptioncard(
               optionname: 'One Month Meal',
               timedetails: 'Breakfast + Lunch + Dinner (3X/Day)',
               days: '30 Days',
@@ -34,7 +34,7 @@ class DesktopTiffinServiceOptions extends StatelessWidget {
               mrp: '₹14400',
               pay: () {},
             ),
-            WebTiffinServiceOptioncard(
+            DesktopTiffinServiceOptioncard(
               optionname: 'Custom',
               timedetails: '(__Times/Day)',
               days: '___ Days',
