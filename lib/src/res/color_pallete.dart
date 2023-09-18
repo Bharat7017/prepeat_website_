@@ -14,6 +14,7 @@ class ColorPallete {
   static const Color lightparrotgreen = Color.fromRGBO(4, 121, 36, 0.6);
   static const Color lightgreen = Color(0xFFB3C296);
   static const Color lightblue = Color(0xFFF1F4F8);
+  static const Color blue = Color.fromRGBO(135, 190, 197, 1);
   static const Color darkblue = Color.fromRGBO(193, 217, 219, 1);
   static const Color black = Colors.black;
   static const Color white = Colors.white;

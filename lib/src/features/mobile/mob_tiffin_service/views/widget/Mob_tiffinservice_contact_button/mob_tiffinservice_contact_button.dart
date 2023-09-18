@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:prepeat_website/src/common/widget/contact_button.dart';
 import 'package:prepeat_website/src/res/color_pallete.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import '../../../../../../res/image_assets.dart';
+import 'package:prepeat_website/src/res/image_assets.dart';
 
 class MobTiffinServiceContactUs extends StatelessWidget {
   const MobTiffinServiceContactUs({super.key});
@@ -16,7 +16,7 @@ class MobTiffinServiceContactUs extends StatelessWidget {
         ),
         Container(
           height: 70.h,
-          width: 770.w,
+          width: 780.w,
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(30),
               color: ColorPallete.lightparrotgreen),

@@ -1,6 +1,7 @@
 import 'package:go_router/go_router.dart';
 import 'package:prepeat_website/src/features/desktop/desktop_chef_service/views/desktop_chef_service.dart';
 import 'package:prepeat_website/src/features/desktop/desktop_landing_page/views/desktop_landing_page.dart';
+import 'package:prepeat_website/src/features/desktop/desktop_laundry_service/views/desktop_laundry_service.dart';
 import 'package:prepeat_website/src/features/desktop/web_tiffin_service/views/desktop_tiffin_service.dart';
 
 GoRouter desktoprouter = GoRouter(initialLocation: '/', routes: [
@@ -23,6 +24,13 @@ GoRouter desktoprouter = GoRouter(initialLocation: '/', routes: [
     path: '/desktop_chef_service',
     builder: (context, state) {
       return const DesktopChefService();
+    },
+  ),
+  GoRoute(
+    name: 'desktop_laundry_service',
+    path: '/desktop_laundry_service',
+    builder: (context, state) {
+      return const DesktopLaundryService();
     },
   ),
 ]);

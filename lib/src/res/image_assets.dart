@@ -23,6 +23,8 @@ class ImageAssets {
 
   static const personalchef = "$base/personalchef.png";
 
+  static const desktoplaundrybanner = "$base/desktoplaundrybanner.png";
+
 //Mobile Images
   static const mobcm = "$base/mobcm.png";
 
@@ -101,4 +103,7 @@ class ImageAssets {
   static const whychooseus = "$base/whychooseus.png";
 
   static const downloadarrow = "$base/downloadarrow.png";
+
+  static const iron = "$base/iron.png";
+  static const fold = "$base/fold.png";
 }

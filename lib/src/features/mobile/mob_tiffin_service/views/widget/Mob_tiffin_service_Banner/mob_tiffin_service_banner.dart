@@ -12,7 +12,7 @@ class MobTiffinServiceBanner extends StatelessWidget {
     return Stack(
       children: [
         Container(
-          height: 600.h,
+          height: 770.h,
           width: double.infinity,
           decoration: const BoxDecoration(
               image: DecorationImage(
@@ -21,10 +21,10 @@ class MobTiffinServiceBanner extends StatelessWidget {
           child: Column(
             children: [
               SizedBox(
-                height: 230.h,
+                height: 300.h,
               ),
               SizedBox(
-                width: 1270.w,
+                width: 1290.w,
                 child: const Text(
                   'Fall For the taste of home with our Tiffin service. Made with fresh, seasonal ingredients and cooked with love, our food is sure to bring a smile to your face.',
                   textAlign: TextAlign.center,
@@ -32,15 +32,12 @@ class MobTiffinServiceBanner extends StatelessWidget {
                       color: ColorPallete.white, fontFamily: 'Poppins'),
                 ),
               ),
+              Center(
+                  child: Lottie.asset(ImageAssets.tiffinserviceanimation,
+                      width: 810.w))
             ],
           ),
         ),
-        Padding(
-          padding: const EdgeInsets.only(top: 200),
-          child: Center(
-              child: Lottie.asset(ImageAssets.tiffinserviceanimation,
-                  width: 850.w)),
-        )
       ],
     );
   }
