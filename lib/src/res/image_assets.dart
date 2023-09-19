@@ -106,4 +106,21 @@ class ImageAssets {
 
   static const iron = "$base/iron.png";
   static const fold = "$base/fold.png";
+
+  static const drycleaning = "$base/drycleaning.png";
+  static const wetcleaning = "$base/wetcleaning.png";
+  static const ironfeature = "$base/ironfeature.png";
+  static const delivery = "$base/delivery.png";
+  static const laundryservicefeature = "$base/laundryservicefeature.png";
+
+  static const laundryaboutus = "$base/laundryaboutus.png";
+  static const laundrywhychooseus = "$base/laundrywhychooseus.png";
+  static const laundryassurance = "$base/laundryassurance.png";
+  static const laundrybgdesign = "$base/laundrybgdesign.png";
+
+  static const bluetick = "$base/bluetick.png";
+
+  static const deliveryboy = "$base/deliveryboy.png";
+
+  static const hirehomemaker = "$base/hirehomemaker.png";
 }

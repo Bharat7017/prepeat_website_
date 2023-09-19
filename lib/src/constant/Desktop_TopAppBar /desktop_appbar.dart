@@ -57,7 +57,7 @@ class DesktopTopAppBar extends StatelessWidget {
                 context.go('/desktop_laundry_service');
               },
               child: AppbarServiceName(
-                servicename: 'laundry Service',
+                servicename: 'Laundry Service',
                 selectioncolor:
                     index == 3 ? ColorPallete.orange : ColorPallete.black,
               ),

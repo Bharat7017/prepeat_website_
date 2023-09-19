@@ -11,17 +11,19 @@ class ColorPallete {
   static const Color darkgreen = Color(0xD72A3D07);
   static const Color green = Color(0xFF596C32);
   static const Color parrotgreen = Color(0xFF4CAF50);
-  static const Color lightparrotgreen = Color.fromRGBO(4, 121, 36, 0.6);
+  static const Color lightparrotgreen = Color(0x99047924);
   static const Color lightgreen = Color(0xFFB3C296);
   static const Color lightblue = Color(0xFFF1F4F8);
-  static const Color blue = Color.fromRGBO(135, 190, 197, 1);
-  static const Color darkblue = Color.fromRGBO(193, 217, 219, 1);
+  static const Color blue = Color(0xFF87BEC5);
+  static const Color darkblue = Color(0xFFC1D9DB);
   static const Color black = Colors.black;
-  static const Color white = Colors.white;
+  static const Color black2 = Color(0xFF3A3A3A);
+  static const Color white = Color(0xFFFFFFFF);
   static const Color lightgrey = Color(0xFFF1F4F8);
-  static const Color lightgrey1 = Color.fromRGBO(241, 244, 248, 1);
+  static const Color lightgrey1 = Color(0xFFF1F4F8);
   static const Color grey = Colors.grey;
   static const Color testimonialbg = Color(0x4A02585E);
   static const Color heading = Color(0xFFDCDCDC);
   static const Color starcolor = Color(0xFFF7B214);
+  static const Color pink = Color.fromRGBO(167, 1, 41, 0.8);
 }
