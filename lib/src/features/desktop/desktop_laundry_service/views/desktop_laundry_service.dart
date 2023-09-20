@@ -9,7 +9,7 @@ import 'package:prepeat_website/src/features/desktop/desktop_laundry_service/vie
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:prepeat_website/src/features/desktop/desktop_laundry_service/views/widget/Desktop_laundry_service_quality_assurance/desktop_laundry_service_quality_assurance.dart';
 import 'package:prepeat_website/src/features/desktop/desktop_laundry_service/views/widget/Desktop_laundry_service_why_choose_us/desktop_laundry_service_why_choose_us.dart';
-import 'package:prepeat_website/src/features/desktop/web_tiffin_service/views/widget/Desktop_tiffin_service_helpandsupport/desktop_tiffin_service_help_and_support.dart';
+import 'package:prepeat_website/src/features/desktop/desktop_tiffin_service/views/widget/Desktop_tiffin_service_helpandsupport/desktop_tiffin_service_help_and_support.dart';
 
 class DesktopLaundryService extends StatelessWidget {
   const DesktopLaundryService({super.key});

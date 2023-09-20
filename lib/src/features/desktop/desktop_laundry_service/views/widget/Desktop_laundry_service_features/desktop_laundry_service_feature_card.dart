@@ -11,9 +11,15 @@ class DesktopLaundryServiceFeatureCard extends StatelessWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
+        SizedBox(
+          height: 100.h,
+        ),
         Image.asset(
           featureimages,
           height: 120.h,
+        ),
+        SizedBox(
+          height: 20.h,
         ),
         Text(
           featurenames,
@@ -22,7 +28,10 @@ class DesktopLaundryServiceFeatureCard extends StatelessWidget {
               fontSize: 20.sp,
               fontFamily: 'Poppins',
               color: ColorPallete.white),
-        )
+        ),
+        SizedBox(
+          height: 100.h,
+        ),
       ],
     );
   }

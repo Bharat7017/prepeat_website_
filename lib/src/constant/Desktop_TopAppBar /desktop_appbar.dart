@@ -63,7 +63,9 @@ class DesktopTopAppBar extends StatelessWidget {
               ),
             ),
             InkWell(
-              onTap: () {},
+              onTap: () {
+                context.go('/desktop_homemaker_service');
+              },
               child: AppbarServiceName(
                 servicename: 'Homemaker Service',
                 selectioncolor:

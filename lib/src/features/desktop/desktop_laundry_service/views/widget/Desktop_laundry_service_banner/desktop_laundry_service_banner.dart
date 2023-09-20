@@ -18,7 +18,7 @@ class DesktopLaundryServiceBanner extends StatelessWidget {
               image: AssetImage(ImageAssets.desktoplaundrybanner),
               fit: BoxFit.fill)),
       child: Padding(
-        padding: const EdgeInsets.only(right: 500, top: 80),
+        padding: const EdgeInsets.only(right: 600, top: 80),
         child: Column(
           children: [
             SizedBox(
@@ -35,7 +35,7 @@ class DesktopLaundryServiceBanner extends StatelessWidget {
             SizedBox(
               width: 500,
               child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   Column(
                     children: [

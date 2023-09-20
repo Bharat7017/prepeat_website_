@@ -25,6 +25,9 @@ class ImageAssets {
 
   static const desktoplaundrybanner = "$base/desktoplaundrybanner.png";
 
+  static const desktophomemakerservicebanner =
+      "$base/desktophomemakerservicebanner.png";
+
 //Mobile Images
   static const mobcm = "$base/mobcm.png";
 
@@ -123,4 +126,11 @@ class ImageAssets {
   static const deliveryboy = "$base/deliveryboy.png";
 
   static const hirehomemaker = "$base/hirehomemaker.png";
+
+  static const erand = "$base/erand.png";
+  static const housekeepingtask = "$base/housekeepingtask.png";
+  static const mealprep = "$base/mealprep.png";
+  static const gardening = "$base/gardening.png";
+  static const groceryshopping = "$base/groceryshopping.png";
+  static const housesitting = "$base/housesitting.png";
 }

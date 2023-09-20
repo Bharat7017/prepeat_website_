@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:prepeat_website/src/features/desktop/web_tiffin_service/views/widget/Desktop_tiffin_service_options/desktop_tiffin_service_option_card.dart';
+import 'package:prepeat_website/src/features/desktop/desktop_tiffin_service/views/widget/Desktop_tiffin_service_options/desktop_tiffin_service_option_card.dart';
 import 'package:prepeat_website/src/res/color_pallete.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

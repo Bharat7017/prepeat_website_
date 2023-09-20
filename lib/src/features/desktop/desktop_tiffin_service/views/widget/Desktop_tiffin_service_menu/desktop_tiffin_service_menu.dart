@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:prepeat_website/src/common/widget/contact_button.dart';
-import 'package:prepeat_website/src/features/desktop/web_tiffin_service/views/widget/Desktop_tiffin_service_menu/desktop_tiffin_service_timedetails.dart';
+import 'package:prepeat_website/src/features/desktop/desktop_tiffin_service/views/widget/Desktop_tiffin_service_menu/desktop_tiffin_service_timedetails.dart';
 import 'package:prepeat_website/src/res/color_pallete.dart';
 import 'package:prepeat_website/src/res/image_assets.dart';
 

@@ -10,7 +10,6 @@ class DesktopLaundryServiceFeatures extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 350.h,
       width: double.infinity,
       color: ColorPallete.black2,
       child: const Padding(
