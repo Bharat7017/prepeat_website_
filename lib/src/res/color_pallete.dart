@@ -25,5 +25,6 @@ class ColorPallete {
   static const Color testimonialbg = Color(0x4A02585E);
   static const Color heading = Color(0xFFDCDCDC);
   static const Color starcolor = Color(0xFFF7B214);
-  static const Color pink = Color.fromRGBO(167, 1, 41, 0.8);
+  static const Color pink = Color(0xCCA70129);
+  static const Color skyblue = Color.fromRGBO(42, 140, 255, 1);
 }

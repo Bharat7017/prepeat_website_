@@ -108,6 +108,7 @@ class ImageAssets {
   static const downloadarrow = "$base/downloadarrow.png";
 
   static const iron = "$base/iron.png";
+  static const iron2 = "$base/iron2.png";
   static const fold = "$base/fold.png";
 
   static const drycleaning = "$base/drycleaning.png";

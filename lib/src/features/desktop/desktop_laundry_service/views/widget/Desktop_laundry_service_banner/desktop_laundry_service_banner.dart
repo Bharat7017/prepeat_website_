@@ -10,15 +10,15 @@ class DesktopLaundryServiceBanner extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      alignment: Alignment.center,
       width: double.infinity,
-      height: 700.h,
       decoration: const BoxDecoration(
           color: ColorPallete.blue,
           image: DecorationImage(
               image: AssetImage(ImageAssets.desktoplaundrybanner),
               fit: BoxFit.fill)),
       child: Padding(
-        padding: const EdgeInsets.only(right: 600, top: 80),
+        padding: const EdgeInsets.only(right: 600, top: 80, left: 50),
         child: Column(
           children: [
             SizedBox(
@@ -33,7 +33,7 @@ class DesktopLaundryServiceBanner extends StatelessWidget {
               height: 40.h,
             ),
             SizedBox(
-              width: 500,
+              width: 600.w,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
@@ -97,6 +97,9 @@ class DesktopLaundryServiceBanner extends StatelessWidget {
                   ),
                 ],
               ),
+            ),
+            SizedBox(
+              height: 70.h,
             )
           ],
         ),

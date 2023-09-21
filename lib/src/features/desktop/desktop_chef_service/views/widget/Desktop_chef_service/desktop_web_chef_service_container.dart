@@ -17,10 +17,10 @@ class DesktopChefServiceContainer extends StatelessWidget {
           ),
           Text(
             'CHEF SERVICE',
-            style: TextStyle(fontSize: 25.sp, fontWeight: FontWeight.w800),
+            style: TextStyle(fontSize: 30.sp, fontWeight: FontWeight.w900),
           ),
           SizedBox(
-            height: 70.h,
+            height: 50.h,
           ),
           const Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,

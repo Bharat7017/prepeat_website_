@@ -24,7 +24,7 @@ class DesktopChefService extends StatelessWidget {
           SizedBox(
             height: 70.h,
           ),
-          const DesktopServiceAvailable(),
+          const DesktopCateringServiceAvailable(),
           SizedBox(
             height: 70.h,
           ),

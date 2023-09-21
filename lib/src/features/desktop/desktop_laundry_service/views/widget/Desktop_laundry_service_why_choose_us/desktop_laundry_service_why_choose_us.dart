@@ -9,20 +9,20 @@ class DesktopLaundryServiceWhyChooseUs extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.75,
       width: double.infinity,
       decoration: const BoxDecoration(
           image: DecorationImage(
               image: AssetImage(
                 ImageAssets.laundrybgdesign,
               ),
-              fit: BoxFit.cover)),
+              fit: BoxFit.fill)),
       child: Padding(
         padding: const EdgeInsets.only(left: 130),
         child: Row(
           children: [
             Image.asset(
               ImageAssets.laundrywhychooseus,
+              height: 600.h,
             ),
             SizedBox(
               width: 80.w,

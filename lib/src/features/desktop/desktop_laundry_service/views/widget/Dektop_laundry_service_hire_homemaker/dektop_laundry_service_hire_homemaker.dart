@@ -23,7 +23,7 @@ class DektopLaundryServiceHireHomemaker extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Want To Hire A Homemnaker',
+                  'Want To Hire A Homemaker',
                   style:
                       TextStyle(fontSize: 30.sp, fontWeight: FontWeight.w900),
                 ),

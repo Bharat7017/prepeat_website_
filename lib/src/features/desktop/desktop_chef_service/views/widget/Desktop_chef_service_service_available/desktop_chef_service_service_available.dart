@@ -3,8 +3,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:prepeat_website/src/res/color_pallete.dart';
 import 'package:prepeat_website/src/res/image_assets.dart';
 
-class DesktopServiceAvailable extends StatelessWidget {
-  const DesktopServiceAvailable({super.key});
+class DesktopCateringServiceAvailable extends StatelessWidget {
+  const DesktopCateringServiceAvailable({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -25,15 +25,21 @@ class DesktopServiceAvailable extends StatelessWidget {
               height: 70.h,
             ),
             Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Image.asset(
-                  ImageAssets.cateringservicedesign,
+                SizedBox(
                   height: 550.h,
+                  width: 550.w,
+                  child: Image.asset(
+                    ImageAssets.cateringservicedesign,
+                  ),
                 ),
-                Image.asset(
-                  ImageAssets.cateringserviceavailablefor,
-                  height: 450,
+                SizedBox(
+                  width: 640.h,
+                  height: 650.h,
+                  child: Image.asset(
+                    ImageAssets.cateringserviceavailablefor,
+                  ),
                 )
               ],
             )

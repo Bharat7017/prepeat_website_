@@ -30,9 +30,9 @@ class DesktopProductFeature extends StatelessWidget {
         SizedBox(
           height: 30.h,
         ),
-        const Padding(
-          padding: EdgeInsets.all(40.0),
-          child: Row(
+        Padding(
+          padding: const EdgeInsets.all(60.0).copyWith(top: 30, bottom: 30),
+          child: const Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               DesktopProductFeatureBox(

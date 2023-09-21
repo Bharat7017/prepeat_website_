@@ -33,19 +33,19 @@ class IVthBox extends StatelessWidget {
               children: [
                 Image.asset(
                   ImageAssets.fb,
-                  height: 40,
-                ),
-                Image.asset(
-                  ImageAssets.insta,
-                  height: 40,
-                ),
-                Image.asset(
-                  ImageAssets.twitter,
                   height: 35,
                 ),
                 Image.asset(
+                  ImageAssets.insta,
+                  height: 35,
+                ),
+                Image.asset(
+                  ImageAssets.twitter,
+                  height: 30,
+                ),
+                Image.asset(
                   ImageAssets.yt,
-                  height: 40,
+                  height: 35,
                 ),
               ],
             ),

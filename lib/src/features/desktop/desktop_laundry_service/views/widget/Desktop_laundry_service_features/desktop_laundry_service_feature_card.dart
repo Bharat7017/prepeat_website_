@@ -30,7 +30,7 @@ class DesktopLaundryServiceFeatureCard extends StatelessWidget {
               color: ColorPallete.white),
         ),
         SizedBox(
-          height: 100.h,
+          height: 50.h,
         ),
       ],
     );

@@ -9,14 +9,13 @@ class DesktopLaundryServiceQualityAssurance extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.75,
       width: double.infinity,
       decoration: const BoxDecoration(
           image: DecorationImage(
               image: AssetImage(
                 ImageAssets.laundrybgdesign,
               ),
-              fit: BoxFit.cover)),
+              fit: BoxFit.fill)),
       child: Padding(
         padding: const EdgeInsets.only(left: 100),
         child: Row(
@@ -191,6 +190,7 @@ class DesktopLaundryServiceQualityAssurance extends StatelessWidget {
             ),
             Image.asset(
               ImageAssets.laundryassurance,
+              height: 600.h,
             ),
           ],
         ),
