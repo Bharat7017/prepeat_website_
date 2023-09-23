@@ -14,7 +14,7 @@ class DesktopHelpAndSupport extends StatelessWidget {
         color: ColorPallete.lightorange,
       ),
       child: Padding(
-        padding: const EdgeInsets.all(100.0),
+        padding: const EdgeInsets.all(30.0),
         child: Column(children: [
           Text(
             'Help and Support',

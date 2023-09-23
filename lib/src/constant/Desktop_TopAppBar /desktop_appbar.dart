@@ -22,7 +22,7 @@ class DesktopTopAppBar extends StatelessWidget {
       backgroundColor: ColorPallete.lightblue,
       centerTitle: false,
       title: SizedBox(
-        width: 700.w,
+        width: 800.w,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [

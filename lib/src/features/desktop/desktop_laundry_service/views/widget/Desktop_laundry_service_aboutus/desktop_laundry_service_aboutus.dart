@@ -17,12 +17,13 @@ class DesktopLaundryServiceAboutus extends StatelessWidget {
               ),
               fit: BoxFit.fill)),
       child: Padding(
-        padding: const EdgeInsets.only(left: 100),
+        padding: const EdgeInsets.only(left: 100, right: 50),
         child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             Image.asset(
               ImageAssets.laundryaboutus,
-              height: 600.h,
+              height: 650.h,
             ),
             SizedBox(
               width: 80.w,

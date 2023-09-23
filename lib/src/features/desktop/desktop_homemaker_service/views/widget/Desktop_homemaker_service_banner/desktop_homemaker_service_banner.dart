@@ -9,7 +9,7 @@ class DesktopHomemakerServiceBanner extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
-      height: 700.h,
+      height: 750.h,
       decoration: const BoxDecoration(
           image: DecorationImage(
               image: AssetImage(ImageAssets.desktophomemakerservicebanner),

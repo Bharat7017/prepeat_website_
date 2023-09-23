@@ -4,6 +4,7 @@ import 'package:prepeat_website/src/common/widget/elevated_button.dart';
 import 'package:prepeat_website/src/features/desktop/desktop_laundry_service/views/widget/Desktop_laundry_service_features/desktop_laundry_service_feature_card.dart';
 import 'package:prepeat_website/src/res/color_pallete.dart';
 import 'package:prepeat_website/src/res/image_assets.dart';
+import 'package:go_router/go_router.dart';
 
 class DesktopLaundryServiceFeatures extends StatelessWidget {
   const DesktopLaundryServiceFeatures({super.key});
@@ -43,7 +44,9 @@ class DesktopLaundryServiceFeatures extends StatelessWidget {
               ],
             ),
             ElevateButton(
-                press: () {},
+                press: () {
+                  context.go('/desktop_laundry_service_price_list');
+                },
                 text: 'See Pricing Details',
                 color: ColorPallete.skyblue,
                 textcolor: ColorPallete.white,

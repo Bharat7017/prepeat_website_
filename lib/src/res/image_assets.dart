@@ -134,4 +134,11 @@ class ImageAssets {
   static const gardening = "$base/gardening.png";
   static const groceryshopping = "$base/groceryshopping.png";
   static const housesitting = "$base/housesitting.png";
+
+  static const menswear = "$base/menswear.png";
+  static const womenwear = "$base/womenwear.png";
+  static const kidswear = "$base/kidswear.png";
+  static const shoes = "$base/shoes.png";
+  static const household = "$base/household.png";
+  static const wm = "$base/wm.png";
 }

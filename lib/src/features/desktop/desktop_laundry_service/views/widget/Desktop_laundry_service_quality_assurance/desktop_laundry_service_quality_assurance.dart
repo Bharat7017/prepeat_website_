@@ -19,7 +19,7 @@ class DesktopLaundryServiceQualityAssurance extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.only(left: 100),
         child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -190,7 +190,7 @@ class DesktopLaundryServiceQualityAssurance extends StatelessWidget {
             ),
             Image.asset(
               ImageAssets.laundryassurance,
-              height: 600.h,
+              height: 650.h,
             ),
           ],
         ),

@@ -11,7 +11,7 @@ class AppbarServiceName extends StatelessWidget {
     return Text(
       servicename,
       style: TextStyle(
-          fontSize: 13.sp,
+          fontSize: 15.sp,
           fontFamily: 'Poppins',
           fontWeight: FontWeight.w600,
           color: selectioncolor),

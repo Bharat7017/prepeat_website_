@@ -1,6 +1,7 @@
 // ignore_for_file: depend_on_referenced_packages
 import 'package:flutter/material.dart';
 import 'package:prepeat_website/src/constant/mob_gorouter/mob_app_route_config.dart';
+import 'package:prepeat_website/src/res/color_pallete.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'src/constant/desktop_gorouter/desktop_app_route_config.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
                 title: 'Prepeat.in',
                 theme: ThemeData(
                   colorScheme:
-                      ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+                      ColorScheme.fromSeed(seedColor: ColorPallete.orange),
                   useMaterial3: true,
                 ),
               );

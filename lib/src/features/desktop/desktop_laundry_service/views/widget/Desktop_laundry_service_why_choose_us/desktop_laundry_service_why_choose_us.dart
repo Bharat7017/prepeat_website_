@@ -19,10 +19,11 @@ class DesktopLaundryServiceWhyChooseUs extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.only(left: 130),
         child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             Image.asset(
               ImageAssets.laundrywhychooseus,
-              height: 600.h,
+              height: 650.h,
             ),
             SizedBox(
               width: 80.w,
