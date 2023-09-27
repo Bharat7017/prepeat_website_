@@ -3,7 +3,7 @@ import 'package:prepeat_website/src/features/desktop/desktop_chef_service/views/
 import 'package:prepeat_website/src/features/desktop/desktop_homemaker_service/views/desktop_homemaker_service.dart';
 import 'package:prepeat_website/src/features/desktop/desktop_landing_page/views/desktop_landing_page.dart';
 import 'package:prepeat_website/src/features/desktop/desktop_laundry_service/views/desktop_laundry_service.dart';
-import 'package:prepeat_website/src/features/desktop/desktop_laundry_service/views/widget/Desktop_laundry_service_features/Desktop_laundry_service_price_list/desktop_laundry_service_pricing_list.dart';
+import 'package:prepeat_website/src/features/desktop/desktop_laundry_service/views/widget/Desktop_laundry_service_price_list/desktop_laundry_service_pricing_list.dart';
 import 'package:prepeat_website/src/features/desktop/desktop_tiffin_service/views/desktop_tiffin_service.dart';
 
 GoRouter desktoprouter = GoRouter(initialLocation: '/', routes: [

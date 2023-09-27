@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class ColorPallete {
   static const Color orange = Color(0xFFFF7033);
-  static const Color orange2 = Color(0xFFF64E19);
+  static const Color orange2 = Color.fromRGBO(246, 78, 25, 1);
   static const Color lightorange = Color(0xFFFEE2D9);
   static const Color teal = Color(0xFF06666D);
   static const Color lightteal = Color(0xFF98E2EF);
@@ -14,7 +14,9 @@ class ColorPallete {
   static const Color lightparrotgreen = Color(0x99047924);
   static const Color lightgreen = Color(0xFFB3C296);
   static const Color lightblue = Color(0xFFF1F4F8);
+  static const Color lightblue2 = Color.fromARGB(255, 198, 228, 255);
   static const Color blue = Color(0xFF87BEC5);
+  static const Color blue3 = Color(0xFF8BCAFF);
   static const Color darkblue = Color(0xFFC1D9DB);
   static const Color blue2 = Color(0xFFB8D5DA);
   static const Color black = Colors.black;
