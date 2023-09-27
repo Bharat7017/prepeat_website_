@@ -27,6 +27,14 @@ class DesktopHomemakerServiceOurService extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               InkWell(
+                onTap: () {},
+                onHover: (value) {
+                  showDialog(
+                      context: context,
+                      builder: (BuildContext context) {
+                        return DesktopHomemekerServiceDialogBox();
+                      });
+                },
                 child: DesktopHomemakerServiceOurServiceCard(
                   image: ImageAssets.erand,
                   name: 'Errands',
@@ -79,6 +87,17 @@ class DesktopHomemakerServiceOurService extends StatelessWidget {
           )
         ],
       ),
+    );
+  }
+}
+
+class DesktopHomemekerServiceDialogBox extends StatelessWidget {
+  const DesktopHomemekerServiceDialogBox({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return SimpleDialog(
+      title: Text('Errands'),
     );
   }
 }

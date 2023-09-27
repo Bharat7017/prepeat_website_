@@ -27,8 +27,8 @@ class _DesktopTopBannerState extends State<DesktopTopBanner> {
       desc:
           'Enjoy a suite of personalized services, from gourmet dining and immaculate laundry care to nutritious tiffin meals and homemaking expertise, all designed to enhance your everyday life.',
       imageAsset: ImageAssets.desktoplaundry,
-      btncolor: ColorPallete.green,
-      textcolor: ColorPallete.green,
+      btncolor: ColorPallete.teal,
+      textcolor: ColorPallete.teal,
     ),
     const DesktopBannerDetails(
       servicename: 'HOUSEMAKER SERVICES',
