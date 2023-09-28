@@ -26,9 +26,14 @@ class DesktopTopAppBar extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            Image.asset(
-              ImageAssets.logo1,
-              width: 100.w,
+            InkWell(
+              onTap: () {
+                context.go('/');
+              },
+              child: Image.asset(
+                ImageAssets.logo1,
+                width: 100.w,
+              ),
             ),
             SizedBox(
               width: 20.w,

@@ -1,5 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:prepeat_website/src/features/desktop/desktop_laundry_service/views/widget/Desktop_laundry_service_price_list/desktop_laundry_service_menswear_data.dart';
+import 'package:prepeat_website/src/features/desktop/desktop_laundry_service/views/widget/Desktop_laundry_service_price_list/Iron/desktop_laundry_service_iron_household_data.dart';
+import 'package:prepeat_website/src/features/desktop/desktop_laundry_service/views/widget/Desktop_laundry_service_price_list/Iron/desktop_laundry_service_iron_menswear_data.dart';
+import 'package:prepeat_website/src/features/desktop/desktop_laundry_service/views/widget/Desktop_laundry_service_price_list/Iron/desktop_laundry_service_iron_womenswear_data.dart';
+import 'package:prepeat_website/src/features/desktop/desktop_laundry_service/views/widget/Desktop_laundry_service_price_list/dryclean/desktop_laundry_service_dryclean_household_data.dart';
+import 'package:prepeat_website/src/features/desktop/desktop_laundry_service/views/widget/Desktop_laundry_service_price_list/dryclean/desktop_laundry_service_dryclean_kidswear_data.dart';
+import 'package:prepeat_website/src/features/desktop/desktop_laundry_service/views/widget/Desktop_laundry_service_price_list/dryclean/desktop_laundry_service_dryclean_menswear_data.dart';
+import 'package:prepeat_website/src/features/desktop/desktop_laundry_service/views/widget/Desktop_laundry_service_price_list/dryclean/desktop_laundry_service_dryclean_womenswear_data.dart';
+import 'package:prepeat_website/src/features/desktop/desktop_laundry_service/views/widget/Desktop_laundry_service_price_list/laundry/desktop_laundry_service_laundry_data.dart';
+import 'package:prepeat_website/src/features/desktop/desktop_laundry_service/views/widget/Desktop_laundry_service_price_list/shoes/desktop_laundry_service_shoes_data.dart';
 import 'package:prepeat_website/src/res/color_pallete.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:prepeat_website/src/res/image_assets.dart';
@@ -49,33 +57,63 @@ class DesktopLaundryServicePricingList extends StatelessWidget {
           ),
         ),
         backgroundColor: ColorPallete.blue2,
-        body: const Column(
+        body: Column(
           children: [
             Expanded(
                 child: TabBarView(children: [
-              Center(
-                  child:
-                      DesktopLaundryServicePricingListofDryCleanofMensWear()),
+              Padding(
+                padding:
+                    const EdgeInsets.all(100.0).copyWith(top: 50, bottom: 50),
+                child: SingleChildScrollView(
+                  child: Column(
+                    children: [
+                      const Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          DesktopLaundryServicePricingListofDryCleanofMensWear(),
+                          DesktopLaundryServicePricingListofDryCleanofWomenWear()
+                        ],
+                      ),
+                      SizedBox(
+                        height: 100.h,
+                      ),
+                      const Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          DesktopLaundryServicePricingListofDryCleanofKidsWear(),
+                          DesktopLaundryServicePricingListofDryCleanofHousehold()
+                        ],
+                      )
+                    ],
+                  ),
+                ),
+              ),
               /////////////////////////////////
-              Center(
-                child: Text(
-                  'hodkj',
-                  style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+              Padding(
+                padding:
+                    const EdgeInsets.all(100.0).copyWith(top: 50, bottom: 50),
+                child: SingleChildScrollView(
+                  child: Column(
+                    children: [
+                      const Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          DesktopLaundryServiceIronMenswearData(),
+                          DesktopLaundryServiceIronWomenswearData()
+                        ],
+                      ),
+                      SizedBox(
+                        height: 100.h,
+                      ),
+                      const DesktopLaundryServiceIronHouseHoldData()
+                    ],
+                  ),
                 ),
               ),
               //////////////////////////////////////
-              Center(
-                child: Text(
-                  'hevdhqd',
-                  style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
-                ),
-              ),
-              Center(
-                child: Text(
-                  'ldl33qd',
-                  style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
-                ),
-              ),
+              const Center(child: DesktopLaundryServiceLaundryData()),
+              const Center(child: DesktopLaundryServiceShoesData()),
             ])),
           ],
         ),

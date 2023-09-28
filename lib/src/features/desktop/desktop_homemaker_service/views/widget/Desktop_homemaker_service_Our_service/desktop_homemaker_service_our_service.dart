@@ -26,22 +26,12 @@ class DesktopHomemakerServiceOurService extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              InkWell(
-                onTap: () {},
-                onHover: (value) {
-                  showDialog(
-                      context: context,
-                      builder: (BuildContext context) {
-                        return DesktopHomemekerServiceDialogBox();
-                      });
-                },
-                child: DesktopHomemakerServiceOurServiceCard(
-                  image: ImageAssets.erand,
-                  name: 'Errands',
-                  desc:
-                      ' Running errands including school drop-offs, dry cleaning pickup/delivery, and bill payments.',
-                  boxwidth: 260.w,
-                ),
+              DesktopHomemakerServiceOurServiceCard(
+                image: ImageAssets.erand,
+                name: 'Errands',
+                desc:
+                    ' Running errands including school drop-offs, dry cleaning pickup/delivery, and bill payments.',
+                boxwidth: 260.w,
               ),
               DesktopHomemakerServiceOurServiceCard(
                 image: ImageAssets.housekeepingtask,

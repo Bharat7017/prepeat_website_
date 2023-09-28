@@ -136,9 +136,12 @@ class ImageAssets {
   static const housesitting = "$base/housesitting.png";
 
   static const menswear = "$base/menswear.png";
+  static const menswear2 = "$base/menswear2.png";
   static const womenwear = "$base/womenwear.png";
+  static const womenwear2 = "$base/womenwear2.png";
   static const kidswear = "$base/kidswear.png";
   static const shoes = "$base/shoes.png";
   static const household = "$base/household.png";
-  static const wm = "$base/wm.png";
+  static const household2 = "$base/household2.png";
+  static const laundry2 = "$base/laundry2.png";
 }
