@@ -6,7 +6,8 @@ import 'package:prepeat_website/src/features/desktop/desktop_tiffin_service/view
 import 'package:prepeat_website/src/features/desktop/desktop_tiffin_service/views/widget/Desktop_tiffin_service_options/desktop_tiffin_service_options.dart';
 import 'package:prepeat_website/src/features/desktop/desktop_tiffin_service/views/widget/Desktop_tiffin_service_banner/desktop_tiffin_service_top_banner.dart';
 import 'package:prepeat_website/src/features/desktop/desktop_tiffin_service/views/widget/Desktop_tiffin_service_what%20we%20do/desktop_tiffin_service_what_we_do.dart';
-import 'widget/Desktop_tiffin_service_helpandsupport/desktop_tiffin_service_help_and_support.dart';
+import 'package:prepeat_website/src/res/color_pallete.dart';
+import '../../../../constant/Desktop Help And Support/desktop_help_and_support.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class DesktopTiffinService extends StatelessWidget {
@@ -39,9 +40,14 @@ class DesktopTiffinService extends StatelessWidget {
           ),
           const DesktopHirePersonalChef(),
           SizedBox(
-            height: 50.h,
+            height: 70.h,
           ),
-          const DesktopHelpAndSupport(),
+          SizedBox(
+            height: 20.h,
+          ),
+          const DesktopHelpAndSupport(
+            index: 0,
+          ),
           SizedBox(
             height: 70.h,
           ),

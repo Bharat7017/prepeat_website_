@@ -10,7 +10,9 @@ class DesktopHomemakerServiceOurService extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(100.0).copyWith(top: 20),
+      padding: const EdgeInsets.all(100.0).copyWith(
+        top: 20,
+      ),
       child: Column(
         children: [
           Text(
@@ -77,17 +79,6 @@ class DesktopHomemakerServiceOurService extends StatelessWidget {
           )
         ],
       ),
-    );
-  }
-}
-
-class DesktopHomemekerServiceDialogBox extends StatelessWidget {
-  const DesktopHomemekerServiceDialogBox({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return SimpleDialog(
-      title: Text('Errands'),
     );
   }
 }

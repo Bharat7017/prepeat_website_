@@ -144,4 +144,7 @@ class ImageAssets {
   static const household = "$base/household.png";
   static const household2 = "$base/household2.png";
   static const laundry2 = "$base/laundry2.png";
+
+  static const homemakeraboutus = "$base/homemakeraboutus.png";
+  static const homemakerhychooseus = "$base/homemakerhychooseus.png";
 }

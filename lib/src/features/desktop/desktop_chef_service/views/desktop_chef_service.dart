@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:prepeat_website/src/constant/Desktop%20Help%20And%20Support/desktop_help_and_support.dart';
 import 'package:prepeat_website/src/constant/Desktop_Bottom_Box/desktop_last_box.dart';
 import 'package:prepeat_website/src/constant/Desktop_TopAppBar%20/desktop_appbar.dart';
 import 'package:prepeat_website/src/features/desktop/desktop_chef_service/views/widget/Desktop_chef_service_features/desktop_chef_service_features_box.dart';
@@ -39,6 +40,12 @@ class DesktopChefService extends StatelessWidget {
           const DesktopWhyChooseUs(),
           SizedBox(
             height: 70.h,
+          ),
+          DesktopHelpAndSupport(
+            index: 1,
+          ),
+          SizedBox(
+            height: 0.h,
           ),
           const DesktopLastBox()
         ],

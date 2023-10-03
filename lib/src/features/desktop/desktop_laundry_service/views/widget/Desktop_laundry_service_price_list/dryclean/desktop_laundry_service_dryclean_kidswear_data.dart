@@ -4,7 +4,6 @@ import 'package:prepeat_website/src/features/desktop/desktop_laundry_service/vie
 import 'package:prepeat_website/src/res/color_pallete.dart';
 import 'package:prepeat_website/src/res/image_assets.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class DesktopLaundryServicePricingListofDryCleanofKidsWear
     extends StatelessWidget {
@@ -21,9 +20,9 @@ class DesktopLaundryServicePricingListofDryCleanofKidsWear
           width2: 600.w,
         ),
         DesktopLaundryServicePricingListTextstrip(
-          name: 'Dress',
+          name: 'Dress (Regular/Cotton)',
           width3: 600.w,
-          price1: '70/70',
+          price1: '119/119',
           price2: '56/56',
           stripcolor: ColorPallete.white,
         ),

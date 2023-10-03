@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:prepeat_website/src/constant/Desktop%20Help%20And%20Support/desktop_help_and_support.dart';
 import 'package:prepeat_website/src/constant/Desktop_TopAppBar%20/desktop_appbar.dart';
 import 'package:prepeat_website/src/features/desktop/desktop_landing_page/views/widget/Desktop_landing_page_Banner/desktop_landing_page_banner.dart';
 import 'package:prepeat_website/src/features/desktop/desktop_landing_page/views/widget/Desktop_landing_page_Download_Box/desktop_landing_page_download.dart';
@@ -42,8 +43,9 @@ class DesktopLandingPage extends StatelessWidget {
           ),
           const DesktopDownloadApp(),
           SizedBox(
-            height: 20.h,
+            height: 50.h,
           ),
+          const DesktopHelpAndSupport(index: 0),
           const DesktopLastBox(),
         ],
       ),

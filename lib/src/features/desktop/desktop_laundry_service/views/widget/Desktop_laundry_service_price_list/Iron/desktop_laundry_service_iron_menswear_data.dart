@@ -61,7 +61,7 @@ class DesktopLaundryServiceIronMenswearData extends StatelessWidget {
           stripcolor: ColorPallete.lightblue2,
         ),
         DesktopLaundryServicePricingListTextstrip(
-          name: 'Blazer',
+          name: 'Kurta Pyjama Set',
           price1: '199',
           width3: 600.w,
           price2: '_ _ _',

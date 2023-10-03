@@ -19,14 +19,14 @@ class DesktopLaundryServiceIronHouseHoldData extends StatelessWidget {
           width2: 1200.w,
         ),
         DesktopLaundryServicePricingListTextstrip(
-          name: 'Shirt/Tshirt',
+          name: 'S Blanket S/D',
           price1: '70/70',
           width3: 1200.w,
           price2: '56/56',
           stripcolor: ColorPallete.white,
         ),
         DesktopLaundryServicePricingListTextstrip(
-          name: 'Trouser/Jeans',
+          name: 'Curtain',
           price1: '70/70',
           price2: '56/56',
           width3: 1200.w,
