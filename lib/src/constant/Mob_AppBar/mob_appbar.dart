@@ -20,9 +20,14 @@ class _MobTopAppBarState extends State<MobTopAppBar> {
       backgroundColor: ColorPallete.lightblue,
       toolbarHeight: 60.h,
       centerTitle: false,
-      title: Image.asset(
-        ImageAssets.logo1,
-        width: 280.w,
+      title: InkWell(
+        onTap: () {
+          context.go('/');
+        },
+        child: Image.asset(
+          ImageAssets.logo1,
+          width: 280.w,
+        ),
       ),
       actions: [
         Padding(
@@ -62,6 +67,9 @@ class _MobTopAppBarState extends State<MobTopAppBar> {
                     ),
                   ),
                   PopupMenuItem(
+                    onTap: () {
+                      context.go('/mob_laundry_service');
+                    },
                     value: 3,
                     child: Text(
                       'Laundry Service',

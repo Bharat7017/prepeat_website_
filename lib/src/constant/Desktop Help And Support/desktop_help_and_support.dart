@@ -34,9 +34,11 @@ class DesktopHelpAndSupport extends StatelessWidget {
                   height: 20.h,
                 ),
                 SizedBox(
+                  width: 1280.w,
                   child: TabBar(
                       indicatorColor: ColorPallete.orange,
                       indicatorWeight: 3,
+                      dividerColor: ColorPallete.grey,
                       isScrollable: false,
                       indicatorSize: TabBarIndicatorSize.label,
                       labelColor: ColorPallete.orange,
@@ -65,129 +67,125 @@ class DesktopHelpAndSupport extends StatelessWidget {
               ],
             ),
           ),
-          body: const Column(
+          body: Column(
             children: [
               Expanded(
                 child: TabBarView(
                   children: [
                     Column(
                       children: [
-                        DesktopHelpAndSupportFaq(
+                        const DesktopHelpAndSupportFaq(
                             faqquestion:
                                 'Q. What is the delivery schedule for tiffin service meals?'),
-                        Divider(),
-                        DesktopHelpAndSupportFaq(
+                        SizedBox(width: 1290.w, child: const Divider()),
+                        const DesktopHelpAndSupportFaq(
                             faqquestion:
                                 'Q. Are there any delivery fees or minimum order requirements for tiffin service?'),
-                        Divider(),
-                        DesktopHelpAndSupportFaq(
+                        SizedBox(width: 1290.w, child: const Divider()),
+                        const DesktopHelpAndSupportFaq(
                             faqquestion:
                                 'Q. Can I change or cancel my tiffin service subscription?'),
-                        Divider(),
-                        DesktopHelpAndSupportFaq(
+                        SizedBox(width: 1290.w, child: const Divider()),
+                        const DesktopHelpAndSupportFaq(
                             faqquestion:
                                 'Q. What cuisines do you offer in your tiffin service?'),
-                        Divider(),
-                        DesktopHelpAndSupportFaq(
+                        SizedBox(width: 1290.w, child: const Divider()),
+                        const DesktopHelpAndSupportFaq(
                             faqquestion:
                                 'Q. How do I customize my tiffin service menu or request specific dishes?'),
-                        Divider(),
+                        SizedBox(width: 1290.w, child: const Divider()),
                       ],
                     ),
                     Column(
                       children: [
-                        DesktopHelpAndSupportFaq(
+                        const DesktopHelpAndSupportFaq(
                             faqquestion:
                                 'Q. What is the cancellation policy for chef service reservations?'),
-                        Divider(),
-                        DesktopHelpAndSupportFaq(
+                        SizedBox(width: 1290.w, child: const Divider()),
+                        const DesktopHelpAndSupportFaq(
                             faqquestion:
                                 'Q. Do you provide the necessary kitchen equipment and ingredients for the chef service?'),
-                        Divider(),
-                        DesktopHelpAndSupportFaq(
+                        SizedBox(width: 1290.w, child: const Divider()),
+                        const DesktopHelpAndSupportFaq(
                             faqquestion:
                                 'Q. What is the delivery schedule for tiffin service meals?'),
-                        Divider(),
-                        DesktopHelpAndSupportFaq(
+                        SizedBox(width: 1290.w, child: const Divider()),
+                        const DesktopHelpAndSupportFaq(
                             faqquestion:
                                 'Q. Do you offer wine pairing or beverage services in conjunction with the chef service?'),
-                        Divider(),
+                        SizedBox(width: 1290.w, child: const Divider()),
                       ],
                     ),
                     Column(
                       children: [
-                        DesktopHelpAndSupportFaq(
+                        const DesktopHelpAndSupportFaq(
                             faqquestion:
                                 'Q. Do you offer dry cleaning as part of your laundry service?'),
-                        Divider(),
-                        DesktopHelpAndSupportFaq(
+                        SizedBox(width: 1290.w, child: const Divider()),
+                        const DesktopHelpAndSupportFaq(
                             faqquestion:
                                 'Q. Are there any restrictions on the types of clothing or fabrics you can launder?'),
-                        Divider(),
-                        DesktopHelpAndSupportFaq(
+                        SizedBox(width: 1290.w, child: const Divider()),
+                        const DesktopHelpAndSupportFaq(
                             faqquestion:
                                 'Q. What is your policy for lost or damaged items during laundry service?'),
-                        Divider(),
-                        DesktopHelpAndSupportFaq(
+                        SizedBox(width: 1290.w, child: const Divider()),
+                        const DesktopHelpAndSupportFaq(
                             faqquestion:
                                 'Q. Is laundry service available on weekends or for one-time cleaning needs?'),
-                        Divider(),
-                        DesktopHelpAndSupportFaq(
+                        SizedBox(width: 1290.w, child: const Divider()),
+                        const DesktopHelpAndSupportFaq(
                             faqquestion:
                                 'Q. How do I schedule a laundry pickup and delivery?'),
-                        Divider(),
+                        SizedBox(width: 1290.w, child: const Divider()),
                       ],
                     ),
                     Column(
                       children: [
-                        DesktopHelpAndSupportFaq(
+                        const DesktopHelpAndSupportFaq(
                             faqquestion:
                                 'Q. What tasks are included in your homemaking services?'),
-                        Divider(
-                          height: 20,
-                        ),
-                        DesktopHelpAndSupportFaq(
+                        SizedBox(width: 1290.w, child: const Divider()),
+                        const DesktopHelpAndSupportFaq(
                             faqquestion:
                                 'Q. Can I request a specific homemaker for my services?'),
-                        Divider(),
-                        DesktopHelpAndSupportFaq(
+                        SizedBox(width: 1290.w, child: const Divider()),
+                        const DesktopHelpAndSupportFaq(
                             faqquestion:
                                 'Q. How do I book homemaking services, and what is the scheduling process?'),
-                        Divider(),
-                        DesktopHelpAndSupportFaq(
+                        SizedBox(width: 1290.w, child: const Divider()),
+                        const DesktopHelpAndSupportFaq(
                             faqquestion:
                                 'Q. How do I book homemaking services, and what is the scheduling process?'),
-                        Divider(),
-                        DesktopHelpAndSupportFaq(
+                        SizedBox(width: 1290.w, child: const Divider()),
+                        const DesktopHelpAndSupportFaq(
                             faqquestion:
                                 'Q. Are your homemakers trained and background-checked?'),
-                        Divider(),
+                        SizedBox(width: 1290.w, child: const Divider()),
                       ],
                     ),
                     Column(
                       children: [
-                        DesktopHelpAndSupportFaq(
+                        const DesktopHelpAndSupportFaq(
                             faqquestion:
                                 "Q. Can I modify or cancel my service booking after it's been confirmed?"),
-                        Divider(
-                          height: 20,
-                        ),
-                        DesktopHelpAndSupportFaq(
+                        SizedBox(width: 1290.w, child: const Divider()),
+                        const DesktopHelpAndSupportFaq(
                             faqquestion:
                                 'Q. Is there a booking fee or deposit required when making a reservation?'),
-                        Divider(),
-                        DesktopHelpAndSupportFaq(
+                        SizedBox(width: 1290.w, child: const Divider()),
+                        const DesktopHelpAndSupportFaq(
                             faqquestion:
                                 'Q. Do you offer subscription plans or loyalty rewards for recurring service bookings?'),
-                        Divider(),
-                        DesktopHelpAndSupportFaq(
+                        SizedBox(width: 1290.w, child: const Divider()),
+                        const DesktopHelpAndSupportFaq(
                             faqquestion:
                                 'Q. Are your homemakers trained and background-checked?'),
-                        Divider(),
-                        DesktopHelpAndSupportFaq(
+                        SizedBox(width: 1290.w, child: const Divider()),
+                        const DesktopHelpAndSupportFaq(
                             faqquestion:
                                 'Q. How do I reschedule a service appointment, and is there a rescheduling fee?'),
-                        Divider(),
+                        SizedBox(width: 1290.w, child: const Divider()),
                       ],
                     ),
                   ],

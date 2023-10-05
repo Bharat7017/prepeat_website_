@@ -54,6 +54,8 @@ class ImageAssets {
 
   static const mobpersonalchef = "$base/mobpersonalchef";
 
+  static const mobilelaundrybanner = "$base/mobilelaundrybanner";
+
 //common Images
   static const logo1 = "$base/logo1.png";
   static const logo2 = "$base/logo2.png";

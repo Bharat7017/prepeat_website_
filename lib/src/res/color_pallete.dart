@@ -20,7 +20,7 @@ class ColorPallete {
   static const Color darkblue = Color(0xFFC1D9DB);
   static const Color blue2 = Color(0xFFB8D5DA);
   static const Color black = Colors.black;
-  static const Color black2 = Color(0xFF3A3A3A);
+  static const Color black2 = Color.fromARGB(255, 38, 38, 38);
   static const Color white = Color(0xFFFFFFFF);
   static const Color lightgrey = Color(0xFFF1F4F8);
   static const Color lightgrey1 = Color(0xFFF1F4F8);
