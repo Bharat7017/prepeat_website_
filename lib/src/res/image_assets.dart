@@ -149,4 +149,53 @@ class ImageAssets {
 
   static const homemakeraboutus = "$base/homemakeraboutus.png";
   static const homemakerhychooseus = "$base/homemakerhychooseus.png";
+
+  static const linkedin = "$base/linkedin.png";
+
+  static const chefforoccasion = "$base/chefforoccasion.png";
+  static const cookforoneday = "$base/cookforoneday.png";
+  static const cookformonthlybasis = "$base/cookformonthlybasis.png";
+  static const kitchencleaner = "$base/kitchencleaner.png";
+
+  static const navratri = "$base/navratri.png";
+  static const dandiyanight = "$base/dandiyanight.png";
+  static const durgapuja = "$base/durgapuja.png";
+
+  static const birthdayparty = "$base/birthdayparty.png";
+  static const engagementparty = "$base/engagementparty.png";
+  static const anniversaryparty = "$base/anniversaryparty.png";
+  static const weddingfunction = "$base/weddingfunction.png";
+  static const kittyparty = "$base/kittyparty.png";
+  static const kidsparty = "$base/kidsparty.png";
+  static const mehendiparty = "$base/mehendiparty.png";
+  static const corporateevents = "$base/corporateevents.png";
+  static const babyshower = "$base/babyshower.png";
+  static const christmasparty = "$base/christmasparty.png";
+  static const invitingguest = "$base/invitingguest.png";
+  static const otheroccasions = "$base/otheroccasions.png";
+  static const houseparty = "$base/houseparty.png";
+  static const vratspecial = "$base/vratspecial.png";
+  static const housewarming = "$base/housewarming.png";
+  static const poojaathome = "$base/poojaathome.png";
+
+  static const upwas = "$base/upwas.png";
+  static const southIndian = "$base/southIndian.png";
+  static const mexican = "$base/mexican.png";
+  static const continental = "$base/continental.png";
+  static const italian = "$base/Italian.png";
+  static const chinese = "$base/chinese.png";
+  static const european = "$base/european.png";
+  static const menunotdecided = "$base/menunotdecided.png";
+  static const northindian = "$base/northindian.png";
+
+  static const makethepayment = "$base/makethepayment.png";
+  static const bookchefandoccasion = "$base/bookchef andoccasion.png";
+  static const chefarriveshome = "$base/chefarriveshome.png";
+  static const selectmenuandallmandatorydetails =
+      "$base/selectmenuandallmandatorydetails.png";
+  static const ingredientslistedisshared =
+      "$base/ingredientslistedisshared.png";
+  static const chefcleansupleaves = "$base/chefcleansup&leaves.png";
+
+  static const discountbanner = "$base/dicountbanner.png";
 }

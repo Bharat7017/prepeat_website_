@@ -3,12 +3,14 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:prepeat_website/src/constant/Desktop%20Help%20And%20Support/desktop_help_and_support.dart';
 import 'package:prepeat_website/src/constant/Desktop_Bottom_Box/desktop_last_box.dart';
 import 'package:prepeat_website/src/constant/Desktop_TopAppBar%20/desktop_appbar.dart';
-import 'package:prepeat_website/src/features/desktop/desktop_chef_service/views/widget/Desktop_chef_service_features/desktop_chef_service_features_box.dart';
+import 'package:prepeat_website/src/features/desktop/desktop_chef_service/views/widget/Desktop_chef_service_all_occassion/desktop_chef_service_all_occassion.dart';
+import 'package:prepeat_website/src/features/desktop/desktop_chef_service/views/widget/Desktop_chef_service_how_its_work/desktop_chef_service_how_its_work.dart';
 import 'package:prepeat_website/src/features/desktop/desktop_chef_service/views/widget/Desktop_chef_service_top%20banner/desktop_chef_service_banner.dart';
-import 'package:prepeat_website/src/features/desktop/desktop_chef_service/views/widget/Desktop_personal_chef_service/desktop_personal_chef_service.dart';
-import 'package:prepeat_website/src/features/desktop/desktop_chef_service/views/widget/Desktop_chef_service_service_available/desktop_chef_service_service_available.dart';
+import 'package:prepeat_website/src/features/desktop/desktop_chef_service/views/widget/Desktop_chef_service_types_of_cuisines/desktop_chef_service_types_of_cuisines.dart';
+import 'package:prepeat_website/src/features/desktop/desktop_chef_service/views/widget/Desktop_chef_service_upcoming_service/desktop_chef_service_upcoming_occassion.dart';
 import 'package:prepeat_website/src/features/desktop/desktop_chef_service/views/widget/Desktop_chef_service_why%20choose%20us/desktop_chef_service_why_choose_us.dart';
-import 'widget/Desktop_chef_service/desktop_web_chef_service_container.dart';
+import 'package:prepeat_website/src/res/image_assets.dart';
+import 'widget/Desktop_chef_service_top_banner/desktop_web_chef_service_container.dart';
 
 class DesktopChefService extends StatelessWidget {
   const DesktopChefService({super.key});
@@ -25,23 +27,32 @@ class DesktopChefService extends StatelessWidget {
           SizedBox(
             height: 70.h,
           ),
-          const DesktopCateringServiceAvailable(),
+          const DesktopChefServiceUpcomingOccassion(),
           SizedBox(
             height: 70.h,
           ),
-          const DesktopFeaturesBox(),
+          const DesktopChefServiceAllOccassion(),
           SizedBox(
-            height: 70.h,
+            height: 100.h,
           ),
-          const DesktopPersonalChefService(),
+          const DesktopChefServiceTypesofCuisines(),
           SizedBox(
-            height: 70.h,
+            height: 100.h,
           ),
           const DesktopWhyChooseUs(),
           SizedBox(
-            height: 70.h,
+            height: 100.h,
           ),
-          DesktopHelpAndSupport(
+          const DesktopChefServiceHowitsWork(),
+          SizedBox(
+            height: 40.h,
+          ),
+          SizedBox(
+              width: 1300.w, child: Image.asset(ImageAssets.discountbanner)),
+          SizedBox(
+            height: 100.h,
+          ),
+          const DesktopHelpAndSupport(
             index: 1,
           ),
           SizedBox(

@@ -27,7 +27,7 @@ class _DesktopHelpAndSupportFaqState extends State<DesktopHelpAndSupportFaq> {
           height: 10.h,
         ),
         SizedBox(
-          width: 1200.w,
+          width: 1310.w,
 
           height: isExpanded ? 100.0 : 50.0, // Adjust the height as needed
 
