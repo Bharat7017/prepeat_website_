@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:prepeat_website/src/res/color_pallete.dart';
 
 class DesktopChefServiceHowitsWorkData extends StatelessWidget {
   const DesktopChefServiceHowitsWorkData(

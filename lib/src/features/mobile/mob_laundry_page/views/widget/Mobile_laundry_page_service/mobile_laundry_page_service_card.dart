@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:prepeat_website/src/res/color_pallete.dart';
-import 'package:prepeat_website/src/res/image_assets.dart';
+
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class MobileLaundryPageServiceCard extends StatelessWidget {

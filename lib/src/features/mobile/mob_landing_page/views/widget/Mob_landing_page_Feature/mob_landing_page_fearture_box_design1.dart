@@ -20,7 +20,7 @@ class MobFeartureBoxDesign1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.all(20).copyWith(bottom: 15, top: 15),
+      margin: const EdgeInsets.all(20).copyWith(bottom: 15, top: 15),
       // height: MediaQuery.of(context).size.height * 0.543,
       // width: 1280.w,
       decoration: BoxDecoration(

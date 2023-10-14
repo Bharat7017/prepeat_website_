@@ -1,3 +1,5 @@
+// ignore_for_file: depend_on_referenced_packages
+
 import 'package:flutter/material.dart';
 import 'package:prepeat_website/src/constant/Desktop_TopAppBar%20/desktop_appbar.dart';
 import 'package:prepeat_website/src/constant/Desktop_Bottom_Box/desktop_last_box.dart';
@@ -6,7 +8,7 @@ import 'package:prepeat_website/src/features/desktop/desktop_tiffin_service/view
 import 'package:prepeat_website/src/features/desktop/desktop_tiffin_service/views/widget/Desktop_tiffin_service_options/desktop_tiffin_service_options.dart';
 import 'package:prepeat_website/src/features/desktop/desktop_tiffin_service/views/widget/Desktop_tiffin_service_banner/desktop_tiffin_service_top_banner.dart';
 import 'package:prepeat_website/src/features/desktop/desktop_tiffin_service/views/widget/Desktop_tiffin_service_what%20we%20do/desktop_tiffin_service_what_we_do.dart';
-import 'package:prepeat_website/src/res/color_pallete.dart';
+
 import '../../../../constant/Desktop Help And Support/desktop_help_and_support.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

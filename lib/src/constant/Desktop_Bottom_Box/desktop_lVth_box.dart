@@ -1,4 +1,4 @@
-// ignore: file_names
+// ignore_for_file: depend_on_referenced_packages
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:prepeat_website/src/res/color_pallete.dart';

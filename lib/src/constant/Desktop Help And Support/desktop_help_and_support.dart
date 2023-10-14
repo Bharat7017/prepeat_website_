@@ -1,7 +1,9 @@
+// ignore_for_file: depend_on_referenced_packages
+
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:prepeat_website/src/constant/Desktop%20Help%20And%20Support/desktop_help_and_support_faq.dart';
 import 'package:prepeat_website/src/res/color_pallete.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class DesktopHelpAndSupport extends StatelessWidget {
   const DesktopHelpAndSupport({super.key, required this.index});

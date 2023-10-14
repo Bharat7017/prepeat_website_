@@ -7,7 +7,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:prepeat_website/src/features/mobile/mob_laundry_page/views/widget/Mobile_laundry_page_choose_us/mobile_laundry_page_choose_us.dart';
 import 'package:prepeat_website/src/features/mobile/mob_laundry_page/views/widget/Mobile_laundry_page_hire_homemaker/mobile_laundry_page_hire_homemaker.dart';
 import 'package:prepeat_website/src/features/mobile/mob_laundry_page/views/widget/Mobile_laundry_page_pick_and_delivery/mobile_laundry_page_pick_and_delivery.dart';
-import 'package:prepeat_website/src/features/mobile/mob_laundry_page/views/widget/Mobile_laundry_page_quality_assurance/Mobile_laundry_page_quality_assurance.dart';
+import 'package:prepeat_website/src/features/mobile/mob_laundry_page/views/widget/Mobile_laundry_page_quality_assurance/mobile_laundry_page_quality_assurance.dart';
 
 import 'package:prepeat_website/src/features/mobile/mob_laundry_page/views/widget/Mobile_laundry_page_service/mobile_laundry_page_service.dart';
 

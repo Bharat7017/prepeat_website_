@@ -1,10 +1,12 @@
+// ignore_for_file: depend_on_referenced_packages
+
 import 'package:flutter/material.dart';
-import 'package:prepeat_website/src/constant/Desktop_Bottom_Box/desktop_lVth_box.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:prepeat_website/src/constant/Desktop_Bottom_Box/desktop_lvth_box.dart';
 import 'package:prepeat_website/src/constant/Desktop_Bottom_Box/desktop_lllrd_box.dart';
 import 'package:prepeat_website/src/constant/Desktop_Bottom_Box/desktop_llnd_column.dart';
 import 'package:prepeat_website/src/constant/Desktop_Bottom_Box/desktop_lst_column.dart';
 import 'package:prepeat_website/src/res/color_pallete.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class DesktopLastBox extends StatelessWidget {
   const DesktopLastBox({super.key});

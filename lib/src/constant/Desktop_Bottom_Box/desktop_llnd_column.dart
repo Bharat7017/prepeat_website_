@@ -1,3 +1,5 @@
+// ignore_for_file: depend_on_referenced_packages
+
 import 'package:flutter/material.dart';
 import 'package:prepeat_website/src/constant/Desktop_Bottom_Box/desktop_textdata.dart';
 import 'package:prepeat_website/src/res/color_pallete.dart';
